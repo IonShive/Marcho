@@ -1,5 +1,5 @@
 html,
-body{
+body {
 	height: 100%;
 }
 
@@ -12,7 +12,7 @@ body {
 	flex-direction: column;
 }
 
-.main{
+.main {
 	flex-grow: 1;
 }
 
@@ -27,4 +27,19 @@ a {
 	line-height: 26px;
 	color: $default;
 	@extend %quicksand-500;
+}
+
+.title {
+	text-align: center;
+	@extend %roboto-700;
+	line-height: 65px;
+	color: $title;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.text {
+	text-align: center;
+	max-width: 570px;
+	margin: 0 auto 55px;
 }
