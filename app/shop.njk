@@ -7,17 +7,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/shop.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
 	{% include 'app/module/_header/_header.html' %}
-	
+
 	<main class="main">
-					{% include 'app/module/_top/_top.html' %}
+		{% include 'app/module/_top/_top.html' %}
 		<section class="shop">
 			<div class="container">
 				<div class="shop__inner">
+					<button class="shop__filter-btn">
+
+					</button>
 					<div class="shop__filters filter">
 
 						<div class="filter__item filterr-search">
@@ -763,7 +767,7 @@
 					</div>
 		</section>
 	</main>
-			{% include 'app/module/_footer/_footer.html' %}
+	{% include 'app/module/_footer/_footer.html' %}
 	<script src="js/main.min.js"></script>
 </body>
 

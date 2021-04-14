@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/blog-one.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -14,12 +15,12 @@
 	{% include 'app/module/_header/_header.html' %}
 
 	<main class="main">
-					{% include 'app/module/_top/_top.html' %}
+		{% include 'app/module/_top/_top.html' %}
 		<section class="blog-page blog-one">
 			<div class="container">
 				<div class="blog-page__inner">
 					<div class="blog-page__content blog-one__content">
-						<img class="blog-one__img" src="images/blog/page-1.jpg" alt="blog img">
+						<img class="blog-page__img" src="images/blog/page-1.jpg" alt="blog img">
 						<div class="blog-one__text">
 							<ul class="blog-one__info">
 								<li class="blog-one__info-item">
@@ -394,7 +395,7 @@
 		</section>
 	</main>
 
-		{% include 'app/module/_footer/_footer.html' %}
+	{% include 'app/module/_footer/_footer.html' %}
 
 	<script src="js/main.min.js"></script>
 </body>
