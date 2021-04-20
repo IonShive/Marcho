@@ -36,6 +36,7 @@ $(function () {
 		vertical: true,
 		draggable: false,
 	});
+
 	$('.product-slide__big').slick({
 		asNavFor: '.product-slide__thumb',
 		draggable: false,
