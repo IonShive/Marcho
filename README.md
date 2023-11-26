@@ -3,7 +3,7 @@
 **Training project for layout practice**
 
 ## Requirements:
-* [Node.js](https://nodejs.org/en/) version 14.15.1 
+* [Node.js](https://nodejs.org/en/) [version 14.15.1] 
 * [npm](https://www.npmjs.com/) 
 * [gulp](https://gulpjs.com/)
 * [git](https://git-scm.com/)
@@ -30,9 +30,3 @@
 | [Fancybox](https://fancyapps.com/) | FancyBox is a jQuery plugin for creating photo galleries and displaying other content in beautiful modal windows. |
 | [Rate Yo!](https://rateyo.fundoocode.ninja) | RateYo! is a tiny and flexible jQuery star rating plugin, it uses SVG to render rating, so no images required. |
 | [Slick slider](https://kenwheeler.github.io/slick/) | Slick slider is a jQuery plugin for quickly creating an adaptive slider of any complexity on a website. Its functionality allows you to implement looping, autoplay, transition effects and much more. Separately, I will highlight the possibility of scrolling through the slider with a finger on devices with a touch screen. |
-
-## Contact author:
-**Vladislav Balaban**
-  - [Telegram](https://t.me/vlad_balaban2021)
-  - [Gmail](mailto:vlad.balaban2020@mail.com)
-  - [Github](https://github.com/IonShive) 
